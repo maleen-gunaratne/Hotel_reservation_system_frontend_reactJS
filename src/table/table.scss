@@ -1,0 +1,32 @@
+.hr-table-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-flex;
+    width: 80%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    padding: 20px;
+    height: flex;
+    border: 0px solid rgb(84, 84, 85);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    display: flexbox;
+}
+
+.hr-search-label {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.hr-result-card {
+    margin: 25px;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-flex;
+}

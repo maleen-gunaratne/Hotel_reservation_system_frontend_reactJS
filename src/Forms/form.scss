@@ -1,0 +1,40 @@
+.hr-search-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-flex;
+    width: 90%;
+    margin: 50px;
+}
+
+.hr-form-card {
+    margin-top: 25px;
+    padding: 20px;
+    width: 50%;
+    height: 500px;
+    border: 0px solid rgb(84, 84, 85);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    display: flexbox;
+    margin-left: 25px;
+}
+
+.ls-label-search {
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.hr-search-row {
+    display: inline-flex;
+}
+
+.hr-button {
+    font-weight: 600;
+    background-color: seagreen;
+    width: 100px;
+    height: 36px;
+    border-radius: 7px;
+    margin: 10px;
+}

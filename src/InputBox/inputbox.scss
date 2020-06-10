@@ -1,0 +1,43 @@
+@media (min-width: 983px) {
+    .InputTextContainer {
+      margin: calc((936px - 936px) / 2); 
+    }
+}
+
+.inputbox-container {
+    .hr-label {
+        color: darkgray;
+        display: block;
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 4px; 
+    }
+
+    .hr-info-text {
+        color: black;
+        display: block;
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 4px;
+    }
+
+    .hr-input-text {
+        background: #ffffff;
+        border: 1px solid darkgray;
+        border-radius: 4px;
+        color: darkgray;
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 4px;
+        max-width: 100%;
+        padding: 8px 12px;
+        width: 100%;
+    }
+    
+    .hr-disabled {
+        color: darkgray;
+        background-color: darkgray;
+        pointer-events: none;
+    }
+}

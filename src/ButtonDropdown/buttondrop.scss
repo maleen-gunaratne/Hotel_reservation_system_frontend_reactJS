@@ -1,0 +1,188 @@
+.ls-dropdown-container {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block !important;
+  position: relative;
+  margin: auto;
+
+  .ls-dropdown-btn {
+    align-items: center;
+    background: transparent;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    color: darkgray;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: "Open Sans semibold", Calibri, Tahoma, sans-serif;
+    justify-content: center;
+    min-width: 152px;
+    padding: 8px 24px;
+    padding: 0 24px 0 24px;
+    position: relative;
+  }
+
+  .ls-dropdown-box {
+    align-items: center;
+    background: #ffffff;
+    border: solid 1px #c7c7c7;
+    border-radius: 3px;
+    color: darkgray;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: "Open Sans semibold", Calibri, Tahoma, sans-serif;
+    height: 36px;
+    width: 152px;
+    //padding: 8px 24px;
+    padding: 0 12px 0 12px;
+    position: relative;
+    text-align: left;
+    width: 220px;
+    .ls-dropdownbox-label {
+      color: #252525;
+      font-family: "Open Sans semibold", Calibri, Tahoma, sans-serif;
+      font-size: 14px;
+      font-stretch: normal;
+      font-style: normal;
+      font-weight: normal;
+      height: 19px;
+      letter-spacing: normal;
+      line-height: normal;
+    }
+    .pe-icon--drop-up-24 {
+      fill: darkgrey;
+      position: absolute;
+      text-align: right;
+      right: 6px;
+    }
+    .pe-icon--drop-down-24 {
+      fill: darkgrey;
+      position: absolute;
+      text-align: right;
+      right: 6px;
+    }
+  }
+
+  .primary {
+    background-color:#005a70;
+    border: 1px solid #005a70;
+    color: #ffffff;
+    &:hover {
+      background-color: darkcyan;
+      color: #ffffff;
+    }
+  }
+
+  .disabled {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    color: darkgrey;
+  }
+
+  // Trigger sizes
+  .large {
+    font-size: 16px;
+    height: 40px;
+    line-height: 20px;
+    min-width: 152px;
+  }
+  .medium {
+    font-size: 16px;
+    height: 36px;
+    line-height: 20px;
+    min-width: 152px;
+    // margin-top: 17px;
+  }
+  .small {
+    font-size: 14px;
+    height: 32px;
+    line-height: 18px;
+    min-width: 128px;
+    // margin-top: 17px;
+  }
+}
+
+// dropdown menu styles
+.ls-dropdown-menu {
+  left: 0;
+  max-height: 323px;
+  position: absolute;
+  top: 100%;
+  width: 220px;
+  z-index: 9999;
+  ul {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(140, 140, 140, 0.3),
+      0 0 2px 0 rgba(140, 140, 140, 0.3);
+    cursor: pointer;
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 0;
+    margin-bottom: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 14px 0 8px 0;
+    z-index: 1000;
+    li {
+      box-sizing: border-box;
+      color: darkgrey;
+      display: flex;
+      font-family: "Open Sans semibold", Calibri, Tahoma, sans-serif;
+      font-size: 14px;
+      position: relative;
+      text-decoration: none;
+      width: 100%;
+      margin-bottom: 4px;
+      z-index: 3;
+      .ls-option {
+        background-color: transparent;
+        border: none;
+        height: 26px;
+        margin-left: 6px;
+        margin-right: 6px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+        position: relative;
+        width: 100%;
+        text-align: left;
+        button {
+          margin-top: 5px;
+          vertical-align: middle;
+        }
+        .selected {
+          .pe-icon--correct-18 {
+            fill: darkgrey !important;
+            padding-right: 4px;
+          }
+        }
+        .not-selected {
+          .pe-icon--correct-18 {
+            fill: transparent !important;
+            padding-right: 4px;
+          }
+        }
+      }
+      &:hover {
+        background-color: darkgrey;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.ls-dropdown-noHover {
+  color: darkgrey !important;
+  pointer-events: none;
+}
+
+.ls-labelname {
+    padding-right: 6px ;
+}
